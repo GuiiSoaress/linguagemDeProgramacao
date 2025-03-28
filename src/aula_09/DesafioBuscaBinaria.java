@@ -47,7 +47,7 @@ public class DesafioBuscaBinaria {
 		System.out.println("Digite o Alvo: ");
 		int alvo = scan.nextInt();
 		
-		scan.close();
+		
 		
 		//Define esquerda, meio e direita de acordo com o vetor. posição min, meio e  posição max
 		int esquerda = 0;
@@ -79,6 +79,8 @@ public class DesafioBuscaBinaria {
 				continue;
 			}	
 		}	
+		
+		scan.close();
 	}
 
 }
